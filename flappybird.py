@@ -2,9 +2,6 @@ import pygame
 import random
 from pygame import mixer
 from pygame import image
-mixer.init()
-pygame.mixer.music.load(r"C:\Users\ADMIN\Documents\Nam3\BTLpython\anh\FlyAway.mp3")
-pygame.mixer.music.play(-1)
 class Bird :
     def __init__(self) :
         """Hàm khoi tạo"""
